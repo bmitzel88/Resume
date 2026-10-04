@@ -12,3 +12,12 @@ h1 {
 .right_side{
     text-align: right; 
 }
+
+aside {
+    float: right;
+    margin-right: 20px;
+}
+
+#summary {
+    width: 800px;
+}
