@@ -1,0 +1,14 @@
+
+h1 { 
+    text-align: center;
+}
+
+.contacts {
+    display: flex; 
+    justify-content: space-between; /* Makes space between the left and right side */
+    align-items: flex-start; /* Aligns both the right and left side */
+}
+
+.right_side{
+    text-align: right; 
+}
