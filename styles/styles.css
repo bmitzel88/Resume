@@ -48,6 +48,15 @@ aside {
     max-width: 800px;
 }
 
+ul {
+    list-style-type: square; /* Square bullets for list items */
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
 @media (max-width: 800px) { /* If you have a small screen -> align the contacts vertically */
     .contacts {
         flex-direction: column;
