@@ -45,5 +45,20 @@ aside {
 }
 
 #summary {
-    width: 800px;
+    max-width: 800px;
+}
+
+@media (max-width: 800px) { /* If you have a small screen -> align the contacts vertically */
+    .contacts {
+        flex-direction: column;
+    }
+
+    .right_side {
+        text-align: left;
+    }
+
+    aside {
+        float: none; /* stop floating on small screens */
+        margin-right: 0;
+    }
 }
