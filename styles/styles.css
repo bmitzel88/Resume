@@ -36,7 +36,22 @@ body {
 }
 
 .right_side{
-    text-align: right; 
+    text-align: right;
+}
+
+a {
+    color: #222222;
+}
+
+
+a:hover {
+    color: #717171;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px solid #c5c4c4;
+    outline-offset: 3px;
 }
 
 aside {
